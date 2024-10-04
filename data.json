@@ -1,0 +1,453 @@
+{
+  "items": [
+    "iron ore",
+    "iron ingot",
+    "copper core",
+    "copper ingot",
+    "wire"
+  ],
+  "recipes": [
+    {
+      "outputs": [
+        {
+          "item": "iron ingot",
+          "quantity": 1
+        }
+      ],
+      "inputs": [
+        {
+          "item": "iron ore",
+          "quantity": 1
+        }
+      ],
+      "machine": {
+        "type": "smelter",
+        "cyclesPerMinute": 30
+      }
+    },
+    {
+      "outputs": [
+        {
+          "item": "copper ingot",
+          "quantity": 1
+        }
+      ],
+      "inputs": [
+        {
+          "item": "copper ore",
+          "quantity": 1
+        }
+      ],
+      "machine": {
+        "type": "smelter",
+        "cyclesPerMinute": 30
+      }
+    },
+    {
+      "outputs": [
+        {
+          "item": "wire",
+          "quantity": 2
+        }
+      ],
+      "inputs": [
+        {
+          "item": "copper ingot",
+          "quantity": 1
+        }
+      ],
+      "machine": {
+        "type": "constructor",
+        "cyclesPerMinute": 15
+      }
+    },
+    {
+      "outputs": [
+        {
+          "item": "cable",
+          "quantity": 1
+        }
+      ],
+      "inputs": [
+        {
+          "item": "wire",
+          "quantity": 2
+        }
+      ],
+      "machine": {
+        "type": "constructor",
+        "cyclesPerMinute": 30
+      }
+    },
+    {
+      "outputs": [
+        {
+          "item": "plastic",
+          "quantity": 2
+        },
+        {
+          "item": "heavy oil residue",
+          "quantity": 1
+        }
+      ],
+      "inputs": [
+        {
+          "item": "crude oil",
+          "quantity": 3
+        }
+      ],
+      "machine": {
+        "type": "refinery",
+        "cyclesPerMinute": 10
+      }
+    },
+    {
+      "outputs": [
+        {
+          "item": "circuit board",
+          "quantity": 1
+        }
+      ],
+      "inputs": [
+        {
+          "item": "copper sheet",
+          "quantity": 2
+        },
+        {
+          "item": "plastic",
+          "quantity": 4
+        }
+      ],
+      "machine": {
+        "type": "assembler",
+        "cyclesPerMinute": 7.5
+      }
+    },
+    {
+      "outputs": [
+        {
+          "item": "copper sheet",
+          "quantity": 1
+        }
+      ],
+      "inputs": [
+        {
+          "item": "copper ingot",
+          "quantity": 2
+        }
+      ],
+      "machine": {
+        "type": "constructor",
+        "cyclesPerMinute": 10
+      }
+    },
+    {
+      "outputs": [
+        {
+          "item": "computer",
+          "quantity": 1
+        }
+      ],
+      "inputs": [
+        {
+          "item": "circuit board",
+          "quantity": 4
+        },
+        {
+          "item": "cable",
+          "quantity": 8
+        },
+        {
+          "item": "plastic",
+          "quantity": 16
+        }
+      ],
+      "machine": {
+        "type": "manufacturer",
+        "cyclesPerMinute": 2.5
+      }
+    },
+    {
+      "outputs": [
+        {
+          "item": "automated wiring",
+          "quantity": 1
+        }
+      ],
+      "inputs": [
+        {
+          "item": "stator",
+          "quantity": 1
+        },
+        {
+          "item": "cable",
+          "quantity": 20
+        }
+      ],
+      "machine": {
+        "type": "assembler",
+        "cyclesPerMinute": 2.5
+      }
+    },
+    {
+      "outputs": [
+        {
+          "item": "stator",
+          "quantity": 1
+        }
+      ],
+      "inputs": [
+        {
+          "item": "steel pipe",
+          "quantity": 3
+        },
+        {
+          "item": "wire",
+          "quantity": 8
+        }
+      ],
+      "machine": {
+        "type": "assembler",
+        "cyclesPerMinute": 5
+      }
+    },
+    {
+      "outputs": [
+        {
+          "item": "steel pipe",
+          "quantity": 2
+        }
+      ],
+      "inputs": [
+        {
+          "item": "steel ingot",
+          "quantity": 3
+        }
+      ],
+      "machine": {
+        "type": "constructor",
+        "cyclesPerMinute": 10
+      }
+    },
+    {
+      "outputs": [
+        {
+          "item": "steel ingot",
+          "quantity": 3
+        }
+      ],
+      "inputs": [
+        {
+          "item": "iron ore",
+          "quantity": 3
+        },
+        {
+          "item": "coal",
+          "quantity": 3
+        }
+      ],
+      "machine": {
+        "type": "foundry",
+        "cyclesPerMinute": 15
+      }
+    },
+    {
+      "outputs": [
+        {
+          "item": "heavy modular frame",
+          "quantity": 1
+        }
+      ],
+      "inputs": [
+        {
+          "item": "modular frame",
+          "quantity": 5
+        },
+        {
+          "item": "steel pipe",
+          "quantity": 20
+        },
+        {
+          "item": "encased industrial beam",
+          "quantity": 5
+        },
+        {
+          "item": "screw",
+          "quantity": 120
+        }
+      ],
+      "machine": {
+        "type": "manufacturer",
+        "cyclesPerMinute": 2
+      }
+    },
+    {
+      "outputs": [
+        {
+          "item": "modular frame",
+          "quantity": 2
+        }
+      ],
+      "inputs": [
+        {
+          "item": "reinforced iron plate",
+          "quantity": 3
+        },
+        {
+          "item": "iron rod",
+          "quantity": 12
+        }
+      ],
+      "machine": {
+        "type": "assembler",
+        "cyclesPerMinute": 1
+      }
+    },
+    {
+      "outputs": [
+        {
+          "item": "reinforced iron plate",
+          "quantity": 1
+        }
+      ],
+      "inputs": [
+        {
+          "item": "iron plate",
+          "quantity": 6
+        },
+        {
+          "item": "screw",
+          "quantity": 12
+        }
+      ],
+      "machine": {
+        "type": "assembler",
+        "cyclesPerMinute": 5
+      }
+    },
+    {
+      "outputs": [
+        {
+          "item": "iron plate",
+          "quantity": 2
+        }
+      ],
+      "inputs": [
+        {
+          "item": "iron ingot",
+          "quantity": 3
+        }
+      ],
+      "machine": {
+        "type": "constructor",
+        "cyclesPerMinute": 10
+      }
+    },
+    {
+      "outputs": [
+        {
+          "item": "screw",
+          "quantity": 4
+        }
+      ],
+      "inputs": [
+        {
+          "item": "iron rod",
+          "quantity": 1
+        }
+      ],
+      "machine": {
+        "type": "constructor",
+        "cyclesPerMinute": 10
+      }
+    },
+    {
+      "outputs": [
+        {
+          "item": "encased industrial beam",
+          "quantity": 1
+        }
+      ],
+      "inputs": [
+        {
+          "item": "steel beam",
+          "quantity": 3
+        },
+        {
+          "item": "concrete",
+          "quantity": 6
+        }
+      ],
+      "machine": {
+        "type": "assembler",
+        "cyclesPerMinute": 6
+      }
+    },
+    {
+      "outputs": [
+        {
+          "item": "steel beam",
+          "quantity": 1
+        }
+      ],
+      "inputs": [
+        {
+          "item": "steel ingot",
+          "quantity": 4
+        }
+      ],
+      "machine": {
+        "type": "constructor",
+        "cyclesPerMinute": 15
+      }
+    },
+    {
+      "outputs": [
+        {
+          "item": "concrete",
+          "quantity": 1
+        }
+      ],
+      "inputs": [
+        {
+          "item": "limestone",
+          "quantity": 3
+        }
+      ],
+      "machine": {
+        "type": "constructor",
+        "cyclesPerMinute": 15
+      }
+    },
+    {
+      "outputs": [
+        {
+          "item": "adaptive control unit",
+          "quantity": 1
+        }
+      ],
+      "inputs": [
+        {
+          "item": "automated wiring",
+          "quantity": 5
+        },
+        {
+          "item": "circuit board",
+          "quantity": 5
+        },
+        {
+          "item": "heavy modular frame",
+          "quantity": 1
+        },
+        {
+          "item": "computer",
+          "quantity": 2
+        }
+      ],
+      "machine": {
+        "type": "manufacturer",
+        "cyclesPerMinute": 1
+      }
+    }
+  ]
+}
